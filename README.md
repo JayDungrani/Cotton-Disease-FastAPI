@@ -60,9 +60,11 @@ docker build -t cotton-disease-api:v1 .
 ```
 2. Run the Containerized App
 Forward host port 8000 into the container's exposed port 8000:
-```docker run -d -p 8000:8000 --name cotton-app cotton-disease-api:v1```
+```
+docker run -d -p 8000:8000 --name cotton-app cotton-disease-api:v1
+```
 
-##📋 API Reference
+## 📋 API Reference
 Predict Cotton Disease
 Accepts a raw image upload payload via multipart form-data.
 ```
