@@ -1,0 +1,17 @@
+.git
+.gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+env/
+venv/
+.pytest_cache/
+.vscode/
+.idea/
+tests/
+
+# Ignore local models if you download them dynamically at startup from S3/GCS
+# models/large_weights.pt
